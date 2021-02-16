@@ -1,5 +1,5 @@
 form {
-	margin-bottom: 3rem;
+	margin-top: 150px;
 }
 
 form input[name="city"],
@@ -7,17 +7,27 @@ form input[name="country"] {
 	background-color: transparent;
 	margin-bottom: 20px;
 	font-weight: 600;
+	font-size: 22px;
 	border: 0;
 	border-bottom: 2px solid whitesmoke;
 	border-radius: 0;
 }
-.btn-warning {
-	font-weight: 600;
+.btn-dark {
+	font-size: 18px;
+	padding: 8px 15px;
+	color: rgb(255, 231, 221);
+}
+.btn-dark:hover {
+	color: rgb(255, 202, 182);
+}
+form input {
+	border-color: rgb(20, 23, 37) !important;
 }
 form input:focus {
 	background-color: transparent !important;
 	box-shadow: none !important;
 	color: rgb(20, 23, 37) !important;
+	border-color: rgb(250, 109, 57) !important;
 }
 
 form input::-webkit-input-placeholder {
