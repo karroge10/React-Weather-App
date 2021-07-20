@@ -4,7 +4,7 @@ Check the weather in a city of your choice
 
 ## Details
 
-Website features:
+Features:
 * Displays weather for any city and country in the world
 * Uses a Weather API
 * Responsive on all devices
