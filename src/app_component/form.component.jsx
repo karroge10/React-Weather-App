@@ -6,16 +6,16 @@ const Form = props => {
         <div className="container" style={{paddingTop: 30}}>
             <div>{props.error ? error() : null}</div>
             <form onSubmit={props.loadweather}>
-            <div className="d-flex justify-content-center rowform">
-                <div className="mx-3">
+            <div className="form-row align-items-center justify-content-center">
+                <div className="col-sm-4 m-2">
                     <input type="text" className="form-control" id="city" name="city" autoComplete="off" placeholder="City"/>
                     <label for="city"></label>
                 </div>
-                <div className="mx-3">
+                <div className="col-sm-4 m-2">
                     <input type="text" className="form-control" id="country" name="country" autoComplete="off" placeholder="Country"/>
                     <label for="country"></label>
                 </div>
-                <div className="mx3">
+                <div className="col-sm-4 m-1">
                     <button className="btn btn-dark">Get Weather</button>
                 </div>
             </div>

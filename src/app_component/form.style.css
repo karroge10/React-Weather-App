@@ -1,5 +1,5 @@
 form {
-	margin-top: 150px;
+	margin-top: 70px;
 }
 
 form input[name="city"],
@@ -15,7 +15,7 @@ form input[name="country"] {
 .btn-dark {
 	font-size: 18px;
 	padding: 8px 15px;
-	color: rgb(255, 231, 221);
+	color: #ffd8c3;
 }
 .btn-dark:hover {
 	color: rgb(255, 202, 182);
@@ -27,7 +27,7 @@ form input:focus {
 	background-color: transparent !important;
 	box-shadow: none !important;
 	color: rgb(20, 23, 37) !important;
-	border-color: rgb(250, 109, 57) !important;
+	border-color: #f77655 !important;
 }
 
 form input::-webkit-input-placeholder {

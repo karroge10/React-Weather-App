@@ -5,10 +5,7 @@ body {
 		'Droid Sans', 'Helvetica Neue', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	background-image: url('./assets/background.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center top;
+	background-color: #ffcdb2 !important;
 	color: rgb(20, 23, 37) !important;
 	min-height: 100vh;
 }
